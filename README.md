@@ -3,7 +3,6 @@
 - 🌱 I’m currently learning how to integrate precision medicine with AI so that people with neurological conditions may have a better quality-of-life.
 - 💞️ I’m looking to collaborate on R Shiny computational genomics or neuroscience projects
 - 📫 How to reach me therrontyler@gmail.com
-- 😄 Pronouns: he/him/they
 - ⚡ Fun fact: I have epilepsy and love to run with my dog!
 
 <!---
