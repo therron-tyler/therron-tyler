@@ -1,0 +1,16 @@
+# Function
+min_max_normalization <- function(x, min_value = -1, max_value = 1) {
+  min_x <- min(x)
+  max_x <- max(x)
+  normalized_x <- (x - min_x) / (max_x - min_x) * (max_value - min_value) + min_value
+  return(normalized_x)
+}
+
+# Function call for row
+normalized_data <- apply(microglia_tc, 1, min_max_normalization, min_value = -1, max_value = 1)
+
+# Function call by column 
+normalized_data <- apply(microglia_tc, 2, min_max_normalization, min_value = -1, max_value = 1)
+
+# Then check the transposition of dataframe.
+View(normalized_data)
